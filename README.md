@@ -7,5 +7,5 @@ Matrix Representation Green function Analysis is a python library based on Pytho
 - Prototype is written by Python, refactoring and upgrade will be done by following rules:
   - algorithem for **ReinforcementLearning** and most **interfaces** should use **Python**;
   - algorithem for **parrallel** or **linear algebra operation** that **need CUDA/BLAS .etc libs** should use **C++**;
-  - else optimization should use **Rust**.
+  - else optimization should use **Rust**, and use **Rust** as much as possible.
  
