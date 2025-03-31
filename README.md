@@ -6,6 +6,6 @@ Matrix Representation Green function Analysis is a python library based on Pytho
 - ISP and DIP must be obeyed(that means each sublibrary is independent with each other, and interfaces are used to solve the difference of data type of different language);
 - Prototype is written by Python, refactoring and upgrade will be done by following rules:
   - algorithem for **ReinforcementLearning** and most **interfaces** should use **Python**;
-  - algorithem for **parrallel** or **linear algebra operation** should use **C++**;
+  - algorithem for **parrallel** or **linear algebra operation** that **need CUDA/BLAS .etc libs** should use **C++**;
   - else optimization should use **Rust**.
  
